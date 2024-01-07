@@ -1,0 +1,86 @@
+Q.1. Answer-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+</head>
+<body>
+    <h1> HTML defines the content and structure of your website on the web browser </h1>
+</body>
+</html>
+
+Q.2. Answer-
+In HTML, comments are used to add explanatory notes or remarks within the code that are not rendered on the webpage. They are intended for the developers or anyone who reads the HTML code to provide additional information about the code, such as explanations, reminders, or notes.
+Comments in HTML are written between <!-- and -->. Anything between these delimiters is treated as a comment and is ignored by the browser when rendering the webpage.
+Here's an example -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Comments Example</title>
+</head>
+<body>
+
+    <!-- This is a comment. It won't be displayed on the webpage. -->
+    
+    <h1>Welcome to My Assignments of PW Course</h1>
+    
+    <!--
+        This is a multiline comment.
+        It can span multiple lines for longer explanations.
+    -->
+
+    <p>This is a paragraph of text.</p>
+
+</body>
+</html>
+
+Q.3. Answer-
+
+Simple webpage layout-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Simple Web Page</h1>
+    
+    <p>This is a paragraph of text. It can contain information about your website.</p>
+    
+    <hr> <!-- Horizontal line -->
+    
+    <p>This is another paragraph of text below the horizontal line.</p>
+
+    <br> <!-- Line break -->
+
+    <p>This paragraph is separated by a line break. It appears below the previous paragraph.</p>
+
+</body>
+</html>
+
+Q.4. Answer-
+In HTML, tags are the starting and ending parts of an HTML element. They begin with < symbol and end with > symbol. Whatever written inside < and > are called tags. For example, <p> is a tag that represents a paragraph.
+
+On the other hand, elements enclose the contents in between the tags. They consist of some kind of structure or expression. It generally consists of a start tag, content and an end tag. For example, <p>This is the content.</p> is an element where <p> is the starting tag, This is the content. is the content, and </p> is the ending tag.
+
+Finally, attributes are used to define the characteristic of an HTML element in detail. It always placed in the opening tag of an element. It generally provides additional styling (attribute) to the element. For example, <p align="center">This is paragraph.</p> is an element with an attribute align set to center.
+
+
+
+Q.5. Answer- 
+
+All HTML documents must start with a <!DOCTYPE> declaration.
+
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
+
+In HTML 5, the declaration is simple:
+<!DOCTYPE html>

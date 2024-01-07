@@ -1,0 +1,297 @@
+Q.1. Answer-
+    <p><b>This text will be bolded.</b></p>
+    <p><i>This text will be italic.</i></p>
+    <p><u>This text will be underlined.</u></p>
+    <p><mark>This text will be highlighted</mark></p>
+    <p>This is normal text <sup>This will be superscripted</sup>This is normal again</p>
+    <p>This is normal text <sub>This text will be subscripted</sub></p>
+    <p>Normal Text <small>Small text</small></p>
+    <p><strike>This text will be deleted </strike></p>
+------------------------------------------------------------------------------------------
+Q.2.Answer-
+    <p>Take me to <a href="https://pwskills.com/">PW Skills</a> to buy a course.</p>
+    <p>Take me to <a href="https://developer.mozilla.org/en-US/">MDN docs</a> to know more about Web Development.</p>
+    <p>Take me to <a href="https://lab.pwskills.com/%2F">PW Skills Lab</a> to practice live coding.</p>
+
+--------------------------------------------------------------------------------------------
+Q.3. Answer-
+    <!-- <a href="home.html">HOME</a>
+    <a href="web_development.html">WEB DEVELOPMENT</a>
+    <a href="web_design.html">WEB DESIGN</a> -->
+
+-------------------------------------------------------------------------------------------
+
+Q.4.Answer-
+    <p>
+        
+        1. **`<!DOCTYPE>`**
+        - Tag Name: `<!DOCTYPE>`
+        - Description: Specifies the document type and version of HTML being used.
+
+        2. **`<html>`**
+        - Tag Name: `<html>`
+        - Description: Represents the root of an HTML document. All other elements are nested within this tag.
+
+        3. **`<head>`**
+        - Tag Name: `<head>`
+        - Description: Contains meta-information about the HTML document, such as title, character set, and linked stylesheets.
+
+        4. **`<title>`**
+        - Tag Name: `<title>`
+        - Description: Defines the title of the HTML document, which appears in the browser's title bar or tab.
+
+        5. **`<body>`**
+        - Tag Name: `<body>`
+        - Description: Contains the content of the HTML document, including text, images, links, and other elements.
+
+        6. **`<h1>` to `<h6>`**
+        - Tag Name: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
+        - Description: Defines headings of different levels, with `<h1>` being the highest and `<h6>` the lowest.
+
+        7. **`<p>`**
+        - Tag Name: `<p>`
+        - Description: Represents a paragraph of text.
+
+        8. **`<a>`**
+        - Tag Name: `<a>`
+        - Description: Creates hyperlinks, allowing users to navigate to other web pages or resources.
+
+        9. **`<img>`**
+        - Tag Name: `<img>`
+        - Description: Embeds images in the HTML document.
+
+        10. **`<ul>`**
+            - Tag Name: `<ul>`
+            - Description: Defines an unordered list. The list items are marked with `<li>`.
+
+        11. **`<ol>`**
+            - Tag Name: `<ol>`
+            - Description: Defines an ordered list. The list items are marked with `<li>`.
+
+        12. **`<li>`**
+            - Tag Name: `<li>`
+            - Description: Represents a list item within `<ul>` (unordered list) or `<ol>` (ordered list).
+
+        13. **`<div>`**
+            - Tag Name: `<div>`
+            - Description: A generic container that is used to group other HTML elements and apply styles.
+
+        14. **`<span>`**
+            - Tag Name: `<span>`
+            - Description: Inline container used to apply styles or scripting to a small piece of text.
+
+        15. **`<table>`**
+            - Tag Name: `<table>`
+            - Description: Creates a table for organizing data. Tables consist of rows (`<tr>`), columns (`<td>`), and headers (`<th>`).
+
+        16. **`<form>`**
+            - Tag Name: `<form>`
+            - Description: Wraps form elements and facilitates user input collection. Can include input fields, buttons, and other form elements.
+
+        17. **`<input>`**
+            - Tag Name: `<input>`
+            - Description: Represents an input field where users can enter data. The type attribute specifies the type of input (text, checkbox, etc.).
+
+        18. **`<textarea>`**
+            - Tag Name: `<textarea>`
+            - Description: Represents a multiline text input control, commonly used for longer pieces of text.
+
+        19. **`<button>`**
+            - Tag Name: `<button>`
+            - Description: Creates a clickable button, often used within forms to submit or reset the form.
+
+        20. **`<hr>`**
+            - Tag Name: `<hr>`
+            - Description: Represents a horizontal rule or line, used to separate content.
+    </p>
+
+-------------------------------------------------------------------------------------------------
+
+Q.5.Answer-
+
+
+
+
+-------------------------------------------------------------------------------------------------
+
+Q.6.Answer- 
+            <ol>
+                <!-- HTML -->
+                <li>
+                <h3>HTML</h3>
+                <table style="border: 1px solid black;">
+                    <tr style="border: 1px solid black;">
+                    <th style="border: 1px solid black;">Primary Use Cases</th>
+                    <th style="border: 1px solid black;">Key Features/Benefits</th>
+                    </tr> 
+                    <tr style="border: 1px solid black;">
+                        <td style="border: 1px solid black;">Building the structure of website</td>
+                        <td style="border: 1px solid black;">
+                            <ul>
+                                <li>Defines the structure and semantics of web documents.</li>
+                                <li>Compatible with all web browsers.</li>
+                                <li>Allows for sementic markup.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                </li>
+            
+                <!-- CSS -->
+                <li>
+                <h3>CSS </h3>
+                <table style="border: 1px solid black;">
+                    <tr style="border: 1px solid black;">
+                    <th style="border: 1px solid black;">Primary Use Cases</th>
+                    <th style="border: 1px solid black;">Key Features/Benefits</th>
+                    </tr>
+                    <tr style="border: 1px solid black;">
+                    <td style="border: 1px solid black;">Styling Web Content</td>
+                    <td style="border: 1px solid black;">
+                        <ul>
+                            <li>Controls the presentation and layout of HTML documents.</li>
+                            <li> Enables the creation of designs that adapt to various screen sizes. </li>
+                            <li>Facilitates the creation of interactive and visually appealing elements.</li>
+                        </ul>
+                    </td>
+                </table>
+                </li>
+            
+                <!-- JavaScript -->
+                <li>
+                <h3>JavaScript</h3>
+                <table style="border: 1px solid black;">
+                    <tr style="border: 1px solid black;">
+                    <th style="border: 1px solid black;">Primary Use Cases</th>
+                    <th style="border: 1px solid black;">Key Features/Benefits</th>
+                    </tr>
+                    <tr style="border: 1px solid black;">
+                    <td style="border: 1px solid black;"> Client-Side Scripting</td>
+                    <td style="border: 1px solid black;">
+                        <ul>
+                            <li>Enables dynamic content and interactivity in web browsers.</li>
+                            <li>Used to create feature-rich, responsive, and dynamic web applications.</li>
+                            <li>Allows JavaScript to be executed on the server, expanding its capabilities.</li>
+                        </ul>
+                    </td>
+                </table>
+                </li>
+            </ol>
+
+----------------------------------------------------------------------------------------------------
+Q.7.Answer-
+    <div>
+        <h1>Table of Contents</h1>
+        <div> 
+            <ul><li><u>Part 1: Introduction</u></li></ul>
+        </div> 
+        <div>
+            <ul><li><u>Part 2: Getting Started</u></li>
+             <ul><li><u>2.1 Installing the Software</u></li></ul>
+            <ul>
+                <li><u>2.2 Creating a New Project</u>
+                    <ul><li>2.2.1 Project Templates</li>
+                        <li><u>2.2.2 Customizing Settings</u></li></ul>
+                </li>
+            </ul>
+            <ul>
+                <li><u>2.3 Exploring the Interface</u>
+                    <ul><li><u>2.3.1 Toolbar Features</u></li></ul>
+                    <ul>
+                        <li><u>2.3.2 Panel Layout</u>
+                        <ul><li><u>2.3.2.1 Docking Panels</u></li>
+                            <li><u>2.3.2.2 Tabbed Interface</u></li></ul>
+                       </li>
+                    </ul>
+                </li>
+            </ul>
+           </ul>
+        </div>
+        <div>
+            <ul><li><u>Part 3: Advanced Topics</u></li>
+                <ul>
+                    <li><u>3.1 Working with Plugins</u>
+                        <ul>
+                            <li><u>3.1.1 Installing Plugins</u></li>
+                            <li><u>3.1.2 Plugin Configuration</u></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><u>3.2 Customizing the UI</u>
+                        <ul>
+                            <li><u>3.2.1 Changing Themes</u></li>
+                            <li><u>3.2.2 Configuration Shortcuts</u></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><u>3.3 Optimizing Performance</u>
+                        <ul>
+                            <li><u>3.3.1 Caching Strategies</u></li>
+                            <li><u>3.3.2 Resources Minification</u></li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        
+        <ul><li><u>Part 4: Conclusion</u></li></ul>
+    </div>
+
+------------------------------------------------------------------------------------
+Q.8.Answer-
+
+    <style>
+        table tr td{
+            border: 2px solid black;
+        }
+    </style>
+
+ <div style="border: 2px solid black;">
+    <h1>Conference Schedule</h1>
+    <table >
+       <tr>
+        <td>Time</td>
+        <td>Room 1</td>
+        <td>Room 2</td>
+        <td>Room 3</td>
+        <td>Room 4</td>
+       </tr>
+       <tr>
+        <td rowspan="3">9.00 AM - 10.00 AM</td>
+        <td rowspan="2">Keynote</td>
+        <td>Session A</td>
+        <td>Session B</td>
+        <td rowspan="3">Session C</td>
+       </tr>
+       <tr>
+        <td>Session D</td>
+        <td>Session E</td>
+       </tr>
+       <tr>
+        <td>10.30 AM -11.30 AM</td>
+        <td colspan="2">Session F</td>
+       </tr>
+       <tr>
+        <td>12.00 PM - 1.00 PM</td>
+        <td colspan="4">Lunch Break</td>
+       </tr>
+       <tr>
+        <td rowspan="2">1.00 PM - 2.00 PM</td>
+        <td>Session G</td>
+        <td rowspan="2">Session H</td>
+        <td>Session I</td>
+        <td>Session J</td>
+       </tr>
+       <tr>
+        <td>Session K</td>
+        <td>Session L</td>
+        <td>Session M</td>
+
+       </tr>
+    </table>
+ </div>
+
+=============================================================================================================
+

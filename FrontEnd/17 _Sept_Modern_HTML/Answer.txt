@@ -1,0 +1,186 @@
+Q.1.Answer-
+HTML5 is the latest version of the Hypertext Markup Language used to structure content on the web. It introduced many new features and enhancements over its predecessor, HTML4. Some of the key features of HTML5 include:
+
+Semantic Elements: HTML5 introduces several new semantic elements like <header>, <footer>, <nav>, <article>, <section>, and <aside>, making it easier to structure and define the purpose of different parts of a web page.
+
+Audio and Video Support: HTML5 includes native support for embedding audio and video content using the <audio> and <video> elements, making it easier to integrate multimedia without relying on third-party plugins like Flash.
+
+Canvas: The <canvas> element allows for dynamic rendering of graphics, charts, and other visualizations directly within the browser. It is particularly useful for interactive games and data visualization.
+
+SVG (Scalable Vector Graphics): HTML5 supports SVG, which allows for the creation of vector graphics directly in HTML. SVG is resolution-independent and can be scaled without loss of quality.
+
+Local Storage: HTML5 provides a more robust and efficient client-side storage solution with the introduction of the localStorage and sessionStorage objects. These allow developers to store key-value pairs locally on the user's device.
+
+Web Storage: HTML5 introduced the localStorage and sessionStorage APIs, providing a way to store data persistently or temporarily on the client side. Unlike cookies, this storage is not sent to the server with every HTTP request, reducing unnecessary data transfer.
+
+Offline Web Applications: The introduction of the Application Cache (AppCache) allows developers to create web applications that work offline or in low-connectivity situations by caching necessary resources.
+
+Web Workers: HTML5 enables the use of Web Workers, which are scripts that run in the background independently of the main page. This can improve performance by allowing tasks to be performed concurrently without affecting the user interface responsiveness.
+
+Geolocation API: HTML5 includes a Geolocation API that allows web applications to access the user's geographical location, facilitating the development of location-aware applications.
+
+Drag and Drop API: HTML5 provides a native Drag and Drop API, making it easier for users to interact with and move elements on a web page.
+
+Form Enhancements: HTML5 introduces new input types such as <input type="date">, <input type="email">, <input type="url">, and more, providing better support for user input validation and user experience.
+
+Cross-document Communication: HTML5 introduces the postMessage method for secure cross-document communication between Window objects, enabling communication between different windows or iframes.
+
+These features collectively contribute to a more efficient and powerful web development environment, fostering better user experiences and improved support for multimedia and interactive content.
+--------------------------------------------------------------------------------------------------------
+
+Q.2.Answer-
+HTML entities are special codes that represent characters in HTML. They are used to display reserved characters, invisible characters, and characters that are not on a standard keyboard. For example, the HTML entity for the less than sign (<) is &lt; or &#60;. HTML entities start with an ampersand (&) and end with a semicolon (;). You can use either the entity name or the entity number to display an HTML entity. 
+
+Here are five commonly used HTML entities:
+1. `&lt;` - represents the less-than symbol (`<`)
+2. `&gt;` - represents the greater-than symbol (`>`)
+3. `&amp;` - represents the ampersand symbol (`&`)
+4. `&quot;` - represents the double quotation mark (`"`)
+5. `&copy;` - represents the copyright symbol (`©`)
+--------------------------------------------------------------------------------------------------------------
+
+Q.3.Answer-
+
+Accessibility in the context of web development refers to the practice of designing and developing websites and web applications to ensure that they are usable and accessible to people with disabilities. The goal is to provide equal access and a positive user experience for all users, regardless of their physical or cognitive abilities. Web accessibility is essential for creating an inclusive and diverse online environment.
+
+1.Perceivable: Information and user interface components must be presented in a way that users can perceive. This includes providing alternative text for images, captions for multimedia content, and ensuring text is adaptable and can be resized.
+
+2.Operable: All users should be able to interact with and navigate the website. This involves ensuring that the navigation is keyboard accessible, providing sufficient time for users to read and complete tasks, and avoiding content that could cause seizures or physical discomfort.
+
+3.Understandable: Content and navigation should be clear and understandable. This includes using consistent and predictable navigation, providing input assistance, and avoiding content that might be confusing or disorienting.
+
+4.Robust: Websites should be compatible with a variety of user agents, including assistive technologies. This involves using valid and well-formed code, following web standards, and testing for compatibility with different browsers and devices.
+
+To achieve web accessibility, developers often follow guidelines provided by the Web Content Accessibility Guidelines (WCAG) developed by the World Wide Web Consortium (W3C). WCAG outlines a set of principles and success criteria that help developers create websites and web applications that are more inclusive and accessible to people with various disabilities, including those who have visual, auditory, motor, and cognitive impairments.
+
+----------------------------------------------------------------------------------------------------------------------
+Q.4.Answer-
+
+1.Use Semantic HTML Elements.
+2. Use alternative text for images.
+3.Ensure Keyboard Accessibility: - Make sure that all interactive elements on your webpage are accessible via keyboard navigation. Users with mobility impairments or those who cannot use a mouse rely on keyboard input. Test your website's functionality using only the keyboard to navigate through links, buttons, and form fields. Use the tabindex attribute if necessary to control the tab order.
+
+-------------------------------------------------------------------------------------------------------------------------
+Q.5.Answer-
+<head>
+    <title>HTML5 Features Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HTML5 Features Showcase</h1>
+</header>
+
+<section>
+    <h2>Semantic Elements</h2>
+    <p>HTML5 introduces semantic elements that provide a clearer structure to web documents, making it easier for developers and improving accessibility. Some of the key semantic elements include:</p>
+    <ul>
+        <li>&lt;header&gt; - Represents a header or a group of introductory content.</li>
+        <li>&lt;nav&gt; - Represents a navigation menu.</li>
+        <li>&lt;section&gt; - Represents a generic section of a document.</li>
+        <li>&lt;article&gt; - Represents an independent piece of content.</li>
+        <li>&lt;footer&gt; - Represents a footer or a group of metadata.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Audio and Video Support</h2>
+    <p>HTML5 provides native support for embedding audio and video content without relying on third-party plugins like Flash. This enhances multimedia capabilities and improves cross-browser compatibility. Example:</p>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video width="400" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<section>
+    <h2>Interactive Disclosure Widget</h2>
+    <p>Use the &lt;details&gt; and &lt;summary&gt; elements to create an interactive disclosure widget. Click the summary to reveal more information.</p>
+    <details>
+        <summary>Click me to reveal more information</summary>
+        <p>This is the additional information that gets revealed when the summary is clicked. You can add any content here.</p>
+    </details>
+</section>
+
+</body>
+
+--------------------------------------------------------------------------------------------
+
+Q.6.Answer-
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+
+<body>
+
+<header>
+    <h1>HTML vs HTML5</h1>
+</header>
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>HTML</th>
+        <th>HTML5</th>
+    </tr>
+    <tr>
+        <td>Document Type Declaration</td>
+        <td>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</td>
+        <td>&lt;!DOCTYPE html&gt;</td>
+    </tr>
+    <tr>
+        <td>Audio and Video Support</td>
+        <td>Requires plugins like Flash for multimedia content.</td>
+        <td>Provides native support for &lt;audio&gt; and &lt;video&gt; elements without plugins.</td>
+    </tr>
+    <tr>
+        <td>Semantic Elements</td>
+        <td>Basic structural elements like &lt;div&gt; are commonly used for layout.</td>
+        <td>Introduces semantic elements like &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, etc., for improved structure.</td>
+    </tr>
+</table>
+
+</body>
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
